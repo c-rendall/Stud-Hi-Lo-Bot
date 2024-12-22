@@ -3,11 +3,13 @@ class Poker:
     Global constants used for poker gameplay.
     """
     # Values for 7 card stud betting rounds 
-    third_street = 3 
-    fourth_street = 4 
-    fifth_street = 5
-    sixth_street = 6 
-    seventh_street = 7 
+    betting_rounds = {
+        'third_street': 3, 
+        'fourth_street': 4, 
+        'fifth_street': 5,
+        'sixth_street': 6,
+        'seventh_street': 7
+    } 
 
     # Possible actions in a poker game 
     game_actions = {
